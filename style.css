@@ -149,3 +149,92 @@ nav img{
     font-weight: 400;
     color: rgba(120, 120, 133, 1);
 }
+
+/* features section */
+
+.feature{
+    display: flex;
+    margin-top: 100px;
+    gap: 96px;
+    margin-left: 165px;
+    margin-right: 165px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.feature-content h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.feature-content p{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(108, 108, 108, 1);
+    margin-right: 109px;
+}
+
+.feature-content button{
+    background-color: rgba(224, 44, 109, 1) ;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+}
+
+/* footer section */
+
+.footer-pic img{
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+}
+
+footer{
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color: black;
+    color: white;
+}
+
+footer h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(217, 219, 225, 1);
+}
+
+
+@media screen and (max-width: 576px) {
+    nav, .nav-btn, .nav-btn-s, .camera{
+        flex-direction: column;
+
+    }
+    .camera-pic{
+        flex-direction: column;
+        margin: 52px 52px;
+        background-image: none;
+    }
+    .hr1, .hr2{
+        display: none;
+    }
+
+    .sponsor{
+        flex-direction: column;
+    }
+
+    .sponsor-img{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 42px;
+        height: 61px;
+        width: 275px;
+        justify-items: center;
+    }
+
+
+
+}
