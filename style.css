@@ -102,3 +102,50 @@ nav img{
 }
 
 /* collections */
+
+#collection-head{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+}
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 196px;
+    margin-right: 196px;
+    gap: 30px;
+}
+
+.container{
+    border: 0px solid;
+    border-radius: 8px;
+    padding: 14px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container img{
+    width: 100%;
+}
+
+.container h1{
+    margin: 0px;
+    margin-top: 16px;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+}
+
+.container h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.container p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(120, 120, 133, 1);
+}
