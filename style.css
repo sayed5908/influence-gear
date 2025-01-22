@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px 0 120px;
+    margin-top: 87px;
+}
+.nav-btn{
+    margin-top: 15px;
+    align-items: center;
+}
+.nav-head{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 1);
+}
+nav img{
+    height: 24px;
+    width: 24px;
+}
+.nav-btn-s{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+    margin-right: 30px;
+}
+
+/* camera section */
+
+.arrow{
+    width: 16px;
+    height: 14px;
+}
+.camera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 108px;
+    margin-right: 132px;
+}
+
+.camera-content h2{
+    font-size: 52px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.camera-btn{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 42px;
+    padding: 10px 24px;
+    align-items: center;
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    border: navajowhite;
+}
+
+.camera-content p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+}
+
+.camera-pic{
+    background-image: url(images/Circle\ design.svg);
+    padding: 30px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+/* sponsors */
+
+.sponsor-img{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.hr1{
+    width: 1122px;
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.1);
+    margin-top: 70px;
+    padding: 0px;
+}
+.hr2{
+    width: 1122px;
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.1);
+    margin-top: 34px;
+    padding: 0px;
+}
+
+/* collections */
